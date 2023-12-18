@@ -42,7 +42,7 @@ function Leaves({ currentIndex })
 
     return (
         <>
-            <Image width={50} height={50}  name='leaf-right' alt='leaf' src='/leaf.png' style={{rotate: (leafDegres[0]+(100*(currentIndex)))+'deg'}}
+            <Image width={200} height={200}  name='leaf-right' alt='leaf' src='/leaf.png' style={{rotate: (leafDegres[0]+(100*(currentIndex)))+'deg'}}
                     className='absolute w-auto h-[200px] max-md:h-[170px] transition-all duration-1000 max-sm:h-[150px] 
                                 right-[-100px] top-[0px] max-sm:top-[20%] z-10'/>
 
@@ -54,7 +54,7 @@ function Leaves({ currentIndex })
                     className='absolute w-auto transition-all duration-1000 h-[35px] max-sm:h-[25px]
                             right-[38%] max-sm:right-[20%] bottom-[25%] max-md:bottom-[20%] z-[12]'/>
 
-            <Image width={50} height={50}  name='leaf-left' alt='leaf' src='/leaf.png'  style={{rotate: (leafDegres[2]+(100*(currentIndex)))+'deg'}}
+            <Image width={150} height={150}  name='leaf-left' alt='leaf' src='/leaf.png'  style={{rotate: (leafDegres[2]+(100*(currentIndex)))+'deg'}}
                     className='absolute w-auto blur-sm transition-all duration-1000 h-[150px] max-sm:h-[120px] 
                             left-[-60px] bottom-[-10px] z-[15]'/>
 
